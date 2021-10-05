@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "up": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "north": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "east": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "south": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "west": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
+    "particle": "minecrafts_adventure_expansion:blocks/ruby_ore_block"
+  }
+}

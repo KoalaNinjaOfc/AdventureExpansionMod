@@ -1,0 +1,118 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyOreLT",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_lt"
+    },
+    {
+      "name": "RubyBag",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_bag"
+    },
+    {
+      "name": "RubyBagStorageGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_bag_storage_gui"
+    },
+    {
+      "name": "RubyBagRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_bag_recipe"
+    },
+    {
+      "name": "MinecraftsAdventureExpansionModTab",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecrafts_adventure_expansion_mod_tab"
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crusher"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecrafts_adventure_expansion.ruby": "Ruby",
+      "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
+      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
+      "block.minecrafts_adventure_expansion.crusher": "Crusher"
+    },
+    "pt_pt": {
+      "item.minecrafts_adventure_expansion.ruby": "Rubi",
+      "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
+      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
+      "block.minecrafts_adventure_expansion.crusher": "Prensa Hidráulica"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecrafts_adventure_expansion",
+    "modName": "Adventure Expansion Mod",
+    "version": "1.0.0",
+    "author": "Guest, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minecraftsadventureexpansion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

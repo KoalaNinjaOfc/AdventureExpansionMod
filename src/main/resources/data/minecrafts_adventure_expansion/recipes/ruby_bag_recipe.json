@@ -1,0 +1,42 @@
+{
+  "group": "minecrafts_adventure_expansion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "4": {
+      "item": "minecrafts_adventure_expansion:ruby"
+    },
+    "5": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "6": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "7": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "8": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "minecrafts_adventure_expansion:ruby_bag",
+    "count": 1
+  }
+}
