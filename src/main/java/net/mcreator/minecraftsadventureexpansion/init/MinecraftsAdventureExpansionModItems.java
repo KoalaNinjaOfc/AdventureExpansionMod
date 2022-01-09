@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.minecraftsadventureexpansion.item.TabiconItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyBagItem;
 
@@ -26,6 +27,7 @@ public class MinecraftsAdventureExpansionModItems {
 	public static final Item RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.RUBY_ORE,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
 	public static final Item RUBY_BAG = register(new RubyBagItem());
+	public static final Item TABICON = register(new TabiconItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

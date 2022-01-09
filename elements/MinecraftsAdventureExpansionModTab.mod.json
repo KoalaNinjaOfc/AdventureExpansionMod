@@ -4,7 +4,7 @@
   "definition": {
     "name": "Adventure Expansion Mod",
     "icon": {
-      "value": "CUSTOM:Ruby"
+      "value": "CUSTOM:Tabicon"
     },
     "showSearch": false
   }
