@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "up": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "north": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "east": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "south": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "west": "minecrafts_adventure_expansion:blocks/ruby_ore_block",
-    "particle": "minecrafts_adventure_expansion:blocks/ruby_ore_block"
+    "down": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "up": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "north": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "east": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "south": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "west": "minecrafts_adventure_expansion:blocks/ruby_ore_new",
+    "particle": "minecrafts_adventure_expansion:blocks/ruby_ore_new"
   }
 }

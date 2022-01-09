@@ -6,9 +6,13 @@ license="All Rights Reserved"
 modId="minecrafts_adventure_expansion"
 version="1.0.0"
 displayName="Adventure Expansion Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Guest, MCreator"
+credits="Created using MCreator"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/minecrafts-adventure-expansion"
+logoFile="logo.png"
+authors="KoalaNinjaOfcYT"
+description='''
+Adventure Expansion Mod is a mod that expands the adventure possibilities in Minecraft.
+'''
 
 [[dependencies.minecrafts_adventure_expansion]]
     modId="minecraft"
