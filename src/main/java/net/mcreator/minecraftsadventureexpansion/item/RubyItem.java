@@ -1,47 +1,21 @@
 
 package net.mcreator.minecraftsadventureexpansion.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
+import net.mcreator.minecraftsadventureexpansion.init.MinecraftsAdventureExpansionModTabs;
 
-import net.mcreator.minecraftsadventureexpansion.itemgroup.MinecraftsAdventureExpansionModTabItemGroup;
-import net.mcreator.minecraftsadventureexpansion.MinecraftsAdventureExpansionModElements;
-
-@MinecraftsAdventureExpansionModElements.ModElement.Tag
-public class RubyItem extends MinecraftsAdventureExpansionModElements.ModElement {
-	@ObjectHolder("minecrafts_adventure_expansion:ruby")
-	public static final Item block = null;
-	public RubyItem(MinecraftsAdventureExpansionModElements instance) {
-		super(instance, 2);
+public class RubyItem extends Item {
+	public RubyItem() {
+		super(new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB).stacksTo(64)
+				.rarity(Rarity.RARE));
+		setRegistryName("ruby");
 	}
 
 	@Override
-	public void initElements() {
-		elements.items.add(() -> new ItemCustom());
-	}
-	public static class ItemCustom extends Item {
-		public ItemCustom() {
-			super(new Item.Properties().group(MinecraftsAdventureExpansionModTabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("ruby");
-		}
-
-		@Override
-		public int getItemEnchantability() {
-			return 0;
-		}
-
-		@Override
-		public int getUseDuration(ItemStack itemstack) {
-			return 0;
-		}
-
-		@Override
-		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
-		}
+	public int getUseDuration(ItemStack itemstack) {
+		return 0;
 	}
 }

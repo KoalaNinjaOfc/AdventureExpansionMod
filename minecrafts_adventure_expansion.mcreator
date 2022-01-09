@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Ruby",
@@ -7,7 +6,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_ore"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_ore_lt"
     },
     {
@@ -34,7 +30,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_bag"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_bag_storage_gui"
     },
     {
@@ -52,7 +46,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_bag_recipe"
     },
     {
@@ -61,17 +54,7 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecrafts_adventure_expansion_mod_tab"
-    },
-    {
-      "name": "Crusher",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crusher"
     }
   ],
   "variable_elements": [],
@@ -81,15 +64,13 @@
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
-      "block.minecrafts_adventure_expansion.crusher": "Crusher"
+      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
     },
     "pt_pt": {
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
-      "block.minecrafts_adventure_expansion.crusher": "Prensa Hidráulica"
+      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi"
     }
   },
   "foldersRoot": {
@@ -109,10 +90,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.17.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.minecraftsadventureexpansion",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202100353117
 }
