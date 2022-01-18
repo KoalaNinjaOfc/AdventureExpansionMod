@@ -79,6 +79,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_ruby_ore_lt"
+    },
+    {
+      "name": "Uranioiten",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranioiten"
+    },
+    {
+      "name": "Espadadeuranio",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadadeuranio"
+    },
+    {
+      "name": "Stickdeiron",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickdeiron"
+    },
+    {
+      "name": "Uranioblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranioblock"
     }
   ],
   "variable_elements": [],

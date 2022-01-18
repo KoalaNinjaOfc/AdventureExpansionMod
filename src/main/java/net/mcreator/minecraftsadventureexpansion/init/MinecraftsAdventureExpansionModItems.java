@@ -13,9 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.minecraftsadventureexpansion.item.UranioitenItem;
+import net.mcreator.minecraftsadventureexpansion.item.StickdeironItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyBagItem;
 import net.mcreator.minecraftsadventureexpansion.item.FabricItem;
+import net.mcreator.minecraftsadventureexpansion.item.EspadadeuranioItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,6 +33,11 @@ public class MinecraftsAdventureExpansionModItems {
 	public static final Item FABRIC = register(new FabricItem());
 	public static final Item DEEPSLATE_RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.DEEPSLATE_RUBY_ORE,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
+	public static final Item URANIOBLOCK = register(MinecraftsAdventureExpansionModBlocks.URANIOBLOCK,
+			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
+	public static final Item URANIOITEN = register(new UranioitenItem());
+	public static final Item ESPADADEURANIO = register(new EspadadeuranioItem());
+	public static final Item STICKDEIRON = register(new StickdeironItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
