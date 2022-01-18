@@ -3,8 +3,8 @@ package net.mcreator.minecraftsadventureexpansion.item;
 
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
-public class UraniumSwordItem extends SwordItem {
-	public UraniumSwordItem() {
+public class PIKARETADEURANIOItem extends PickaxeItem {
+	public PIKARETADEURANIOItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -15,7 +15,7 @@ public class UraniumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4.5f;
+				return 2f;
 			}
 
 			public int getLevel() {
@@ -31,11 +31,11 @@ public class UraniumSwordItem extends SwordItem {
 			}
 		},
 
-				3, -3f,
+				1, -3f,
 
-				new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB));
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 
-		setRegistryName("uranium_sword");
+		setRegistryName("pikaretadeuranio");
 	}
 
 }

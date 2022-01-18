@@ -105,6 +105,14 @@
       "registry_name": "uranioblock"
     },
     {
+      "name": "UraniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_sword_recipe"
+    },
+    {
       "name": "UraniumSword",
       "type": "tool",
       "sortid": 15,
@@ -113,18 +121,19 @@
       "registry_name": "uranium_sword"
     },
     {
-      "name": "UraniumSwordRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
+      "name": "PIKARETADEURANIO",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "uranium_sword_recipe"
+      "registry_name": "pikaretadeuranio"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
       "item.minecrafts_adventure_expansion.uranioiten": "Uranium Ingot",
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
@@ -132,11 +141,11 @@
       "item.minecrafts_adventure_expansion.stickdeiron": "Iron Stick",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.uranium_sword": "Uranium Sword",
       "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
       "block.minecrafts_adventure_expansion.uranioblock": "Uranium Ore"
     },
     "pt_pt": {
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
       "item.minecrafts_adventure_expansion.uranioiten": "Barra de Uranio",
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
