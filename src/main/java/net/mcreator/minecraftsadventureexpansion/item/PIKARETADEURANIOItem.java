@@ -7,8 +7,8 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class EspadadeuranioItem extends PickaxeItem {
-	public EspadadeuranioItem() {
+public class PIKARETADEURANIOItem extends PickaxeItem {
+	public PIKARETADEURANIOItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -34,6 +34,6 @@ public class EspadadeuranioItem extends PickaxeItem {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("espadadeuranio");
+		setRegistryName("pikaretadeuranio");
 	}
 }

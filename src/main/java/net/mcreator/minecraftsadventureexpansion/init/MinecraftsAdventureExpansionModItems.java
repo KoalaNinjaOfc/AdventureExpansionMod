@@ -17,6 +17,7 @@ import net.mcreator.minecraftsadventureexpansion.item.UranioitenItem;
 import net.mcreator.minecraftsadventureexpansion.item.StickdeironItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyBagItem;
+import net.mcreator.minecraftsadventureexpansion.item.PIKARETADEURANIOItem;
 import net.mcreator.minecraftsadventureexpansion.item.FabricItem;
 import net.mcreator.minecraftsadventureexpansion.item.EspadadeuranioItem;
 
@@ -38,6 +39,7 @@ public class MinecraftsAdventureExpansionModItems {
 	public static final Item URANIOITEN = register(new UranioitenItem());
 	public static final Item ESPADADEURANIO = register(new EspadadeuranioItem());
 	public static final Item STICKDEIRON = register(new StickdeironItem());
+	public static final Item PIKARETADEURANIO = register(new PIKARETADEURANIOItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
