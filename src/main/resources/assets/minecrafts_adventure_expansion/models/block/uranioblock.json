@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "up": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "north": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "east": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "south": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "west": "minecrafts_adventure_expansion:blocks/minerio_de_uranio",
+    "particle": "minecrafts_adventure_expansion:blocks/minerio_de_uranio"
+  }
+}

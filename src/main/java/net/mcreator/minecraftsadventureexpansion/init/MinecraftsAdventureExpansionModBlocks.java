@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.minecraftsadventureexpansion.block.UranioblockBlock;
 import net.mcreator.minecraftsadventureexpansion.block.RubyOreBlock;
 
 import java.util.List;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 public class MinecraftsAdventureExpansionModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block RUBY_ORE = register(new RubyOreBlock());
+	public static final Block URANIOBLOCK = register(new UranioblockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

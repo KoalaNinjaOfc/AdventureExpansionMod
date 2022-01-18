@@ -63,24 +63,64 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fabric"
+    },
+    {
+      "name": "Uranioblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranioblock"
+    },
+    {
+      "name": "Uranioiten",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranioiten"
+    },
+    {
+      "name": "Espadadeuranio",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espadadeuranio"
+    },
+    {
+      "name": "Stickdeiron",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickdeiron"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
+      "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
+      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
+      "block.minecrafts_adventure_expansion.uranioblock": "Uranioblock"
     },
     "pt_pt": {
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
+      "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+      "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi"
+      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
+      "block.minecrafts_adventure_expansion.uranioblock": "Uranioblock"
     }
   },
   "foldersRoot": {

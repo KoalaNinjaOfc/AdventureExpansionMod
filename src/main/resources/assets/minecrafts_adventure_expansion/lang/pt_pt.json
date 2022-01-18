@@ -1,7 +1,11 @@
 {
+  "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
+  "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
   "item.minecrafts_adventure_expansion.ruby": "Rubi",
   "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+  "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
   "item.minecrafts_adventure_expansion.fabric": "Fabric",
   "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
-  "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi"
+  "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
+  "block.minecrafts_adventure_expansion.uranioblock": "Uranioblock"
 }
