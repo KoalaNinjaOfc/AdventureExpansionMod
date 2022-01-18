@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "up": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "north": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "east": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "south": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "west": "minecrafts_adventure_expansion:blocks/deepslate_ruby",
+    "particle": "minecrafts_adventure_expansion:blocks/deepslate_ruby"
+  }
+}

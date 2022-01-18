@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecrafts_adventure_expansion:ruby_ore"
+    "minecrafts_adventure_expansion:ruby_ore",
+    "minecrafts_adventure_expansion:deepslate_ruby_ore"
   ]
 }

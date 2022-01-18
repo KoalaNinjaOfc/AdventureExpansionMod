@@ -28,6 +28,8 @@ public class MinecraftsAdventureExpansionModItems {
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
 	public static final Item RUBY_BAG = register(new RubyBagItem());
 	public static final Item FABRIC = register(new FabricItem());
+	public static final Item DEEPSLATE_RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.DEEPSLATE_RUBY_ORE,
+			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

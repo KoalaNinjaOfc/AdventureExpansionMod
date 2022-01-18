@@ -63,6 +63,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fabric"
+    },
+    {
+      "name": "DepslateRubyOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore"
+    },
+    {
+      "name": "DeepslateRubyOreLT",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore_lt"
     }
   ],
   "variable_elements": [],
@@ -71,6 +87,7 @@
     "en_us": {
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Depslate Ruby Ore",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
       "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
@@ -78,6 +95,7 @@
     "pt_pt": {
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Depslate Ruby Ore",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
       "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi"
