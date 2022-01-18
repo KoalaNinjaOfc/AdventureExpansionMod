@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "ingot_de_uranio",
     "customModelName": "Normal",
-    "name": "Uranioiten",
+    "name": "Uranium Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
