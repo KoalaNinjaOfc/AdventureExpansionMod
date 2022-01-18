@@ -129,16 +129,16 @@
       "block.minecrafts_adventure_expansion.uranioblock": "Uranium Ore"
     },
     "pt_pt": {
-      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
-      "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espada de Uranio",
+      "item.minecrafts_adventure_expansion.uranioiten": "Barra de Uranio",
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
-      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Depslate Ruby Ore",
-      "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Minério de Ardósia de Rubi",
+      "item.minecrafts_adventure_expansion.stickdeiron": "Pau de Ferro",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
       "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
-      "block.minecrafts_adventure_expansion.uranioblock": "Uranioblock"
+      "block.minecrafts_adventure_expansion.uranioblock": "Minério de Uranio"
     }
   },
   "foldersRoot": {
