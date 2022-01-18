@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.minecraftsadventureexpansion.world.features.ores.RubyOreFeature;
+import net.mcreator.minecraftsadventureexpansion.world.features.ores.DepslateRubyOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class MinecraftsAdventureExpansionModFeatures {
 	static {
 		REGISTRY.put(RubyOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RubyOreFeature.GENERATE_BIOMES,
 				RubyOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(DepslateRubyOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				DepslateRubyOreFeature.GENERATE_BIOMES, DepslateRubyOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -65,14 +65,6 @@
       "registry_name": "fabric"
     },
     {
-      "name": "Uranioblock",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uranioblock"
-    },
-    {
       "name": "Uranioiten",
       "type": "item",
       "sortid": 12,
@@ -95,27 +87,48 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stickdeiron"
+    },
+    {
+      "name": "Uranioblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranioblock"
+    },
+    {
+      "name": "DeepslateRubyOreLT",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore_lt"
+    },
+    {
+      "name": "DepslateRubyOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
-      "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
-      "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
-      "block.minecrafts_adventure_expansion.uranioblock": "Uranioblock"
+      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
     },
     "pt_pt": {
       "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
       "item.minecrafts_adventure_expansion.uranioiten": "Uranioiten",
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Depslate Ruby Ore",
       "item.minecrafts_adventure_expansion.stickdeiron": "Stickdeiron",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",

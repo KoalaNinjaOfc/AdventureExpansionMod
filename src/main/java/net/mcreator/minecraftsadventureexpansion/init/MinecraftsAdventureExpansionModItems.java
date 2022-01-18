@@ -33,6 +33,8 @@ public class MinecraftsAdventureExpansionModItems {
 	public static final Item FABRIC = register(new FabricItem());
 	public static final Item URANIOBLOCK = register(MinecraftsAdventureExpansionModBlocks.URANIOBLOCK,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
+	public static final Item DEEPSLATE_RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.DEEPSLATE_RUBY_ORE,
+			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
 	public static final Item URANIOITEN = register(new UranioitenItem());
 	public static final Item ESPADADEURANIO = register(new EspadadeuranioItem());
 	public static final Item STICKDEIRON = register(new StickdeironItem());
