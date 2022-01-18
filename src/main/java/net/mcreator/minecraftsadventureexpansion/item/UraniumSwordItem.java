@@ -3,12 +3,13 @@ package net.mcreator.minecraftsadventureexpansion.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
-public class EspadadeuranioItem extends PickaxeItem {
-	public EspadadeuranioItem() {
+import net.mcreator.minecraftsadventureexpansion.init.MinecraftsAdventureExpansionModTabs;
+
+public class UraniumSwordItem extends SwordItem {
+	public UraniumSwordItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -19,7 +20,7 @@ public class EspadadeuranioItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 4.5f;
 			}
 
 			public int getLevel() {
@@ -33,7 +34,7 @@ public class EspadadeuranioItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("espadadeuranio");
+		}, 3, -3f, new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB));
+		setRegistryName("uranium_sword");
 	}
 }

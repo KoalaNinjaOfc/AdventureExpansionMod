@@ -1,5 +1,4 @@
 {
-  "item.minecrafts_adventure_expansion.espadadeuranio": "Espada de Uranio",
   "item.minecrafts_adventure_expansion.uranioiten": "Barra de Uranio",
   "item.minecrafts_adventure_expansion.ruby": "Rubi",
   "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
@@ -7,6 +6,7 @@
   "item.minecrafts_adventure_expansion.stickdeiron": "Pau de Ferro",
   "item.minecrafts_adventure_expansion.fabric": "Fabric",
   "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
+  "item.minecrafts_adventure_expansion.uranium_sword": "Uranium Sword",
   "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
   "block.minecrafts_adventure_expansion.uranioblock": "Minério de Uranio"
 }

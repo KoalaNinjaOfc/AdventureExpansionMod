@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecrafts_adventure_expansion:uranioiten"
+    },
+    "1": {
+      "item": "minecrafts_adventure_expansion:uranioiten"
+    },
+    "2": {
+      "item": "minecrafts_adventure_expansion:stickdeiron"
+    }
+  },
+  "result": {
+    "item": "minecrafts_adventure_expansion:uranium_sword",
+    "count": 1
+  }
+}
