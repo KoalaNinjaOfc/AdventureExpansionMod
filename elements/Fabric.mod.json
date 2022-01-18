@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ruby",
+    "texture": "ruby_new",
     "customModelName": "Normal",
-    "name": "Tab icon - No use",
+    "name": "Fabric",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MinecraftsAdventureExpansionModTab"
     },
     "stackSize": 64,
     "enchantability": 0,

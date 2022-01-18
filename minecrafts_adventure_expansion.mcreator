@@ -57,12 +57,12 @@
       "registry_name": "minecrafts_adventure_expansion_mod_tab"
     },
     {
-      "name": "Tabicon",
+      "name": "Fabric",
       "type": "item",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tabicon"
+      "registry_name": "fabric"
     }
   ],
   "variable_elements": [],
@@ -71,15 +71,15 @@
     "en_us": {
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.tabicon": "Tab icon - No use",
       "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
     },
     "pt_pt": {
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
+      "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
-      "item.minecrafts_adventure_expansion.tabicon": "Tab icon - No use",
       "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi"
     }
   },
