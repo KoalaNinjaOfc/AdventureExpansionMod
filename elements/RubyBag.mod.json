@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "stick_de_ferro",
+    "texture": "rubybag_temporary",
     "customModelName": "Normal",
-    "name": "Iron Stick",
+    "name": "Ruby Bag",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MinecraftsAdventureExpansionModTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -26,8 +26,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "guiBoundTo": "RubyBagStorageGUI",
+    "inventorySize": 27,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false
   }

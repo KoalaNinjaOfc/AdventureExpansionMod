@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class UranioblockBlock extends Block {
 	public UranioblockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override

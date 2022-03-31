@@ -6,8 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.minecraftsadventureexpansion.init.MinecraftsAdventureExpansionModTabs;
-
 public class UraniumSwordItem extends SwordItem {
 	public UraniumSwordItem() {
 		super(new Tier() {
@@ -34,6 +32,6 @@ public class UraniumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB));
+		}, 3, -3f, new Item.Properties().tab(null));
 	}
 }
