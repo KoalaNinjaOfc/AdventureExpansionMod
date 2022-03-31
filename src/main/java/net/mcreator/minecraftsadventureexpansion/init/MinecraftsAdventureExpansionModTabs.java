@@ -17,7 +17,7 @@ public class MinecraftsAdventureExpansionModTabs {
 		TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB = new CreativeModeTab("tabminecrafts_adventure_expansion_mod_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(MinecraftsAdventureExpansionModItems.RUBY);
+				return new ItemStack(MinecraftsAdventureExpansionModItems.RUBY.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -11,7 +11,6 @@ public class RubyItem extends Item {
 	public RubyItem() {
 		super(new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB).stacksTo(64)
 				.rarity(Rarity.RARE));
-		setRegistryName("ruby");
 	}
 
 	@Override

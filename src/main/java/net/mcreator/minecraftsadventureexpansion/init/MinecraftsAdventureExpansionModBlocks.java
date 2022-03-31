@@ -4,33 +4,20 @@
  */
 package net.mcreator.minecraftsadventureexpansion.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.minecraftsadventureexpansion.block.UranioblockBlock;
 import net.mcreator.minecraftsadventureexpansion.block.RubyOreBlock;
 import net.mcreator.minecraftsadventureexpansion.block.DepslateRubyOreBlock;
+import net.mcreator.minecraftsadventureexpansion.MinecraftsAdventureExpansionMod;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MinecraftsAdventureExpansionModBlocks {
-	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block RUBY_ORE = register(new RubyOreBlock());
-	public static final Block DEEPSLATE_RUBY_ORE = register(new DepslateRubyOreBlock());
-	public static final Block URANIOBLOCK = register(new UranioblockBlock());
-
-	private static Block register(Block block) {
-		REGISTRY.add(block);
-		return block;
-	}
-
-	@SubscribeEvent
-	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new Block[0]));
-	}
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MinecraftsAdventureExpansionMod.MODID);
+	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
+	public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = REGISTRY.register("deepslate_ruby_ore", () -> new DepslateRubyOreBlock());
+	public static final RegistryObject<Block> URANIOBLOCK = REGISTRY.register("uranioblock", () -> new UranioblockBlock());
 }

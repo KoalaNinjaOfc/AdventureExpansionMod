@@ -4,9 +4,9 @@
  */
 package net.mcreator.minecraftsadventureexpansion.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -17,41 +17,26 @@ import net.mcreator.minecraftsadventureexpansion.item.UraniumSwordItem;
 import net.mcreator.minecraftsadventureexpansion.item.UranioitenItem;
 import net.mcreator.minecraftsadventureexpansion.item.StickdeironItem;
 import net.mcreator.minecraftsadventureexpansion.item.RubyItem;
-import net.mcreator.minecraftsadventureexpansion.item.RubyBagItem;
 import net.mcreator.minecraftsadventureexpansion.item.PIKARETADEURANIOItem;
 import net.mcreator.minecraftsadventureexpansion.item.FabricItem;
+import net.mcreator.minecraftsadventureexpansion.MinecraftsAdventureExpansionMod;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MinecraftsAdventureExpansionModItems {
-	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item RUBY = register(new RubyItem());
-	public static final Item RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.RUBY_ORE,
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MinecraftsAdventureExpansionMod.MODID);
+	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
+	public static final RegistryObject<Item> RUBY_ORE = block(MinecraftsAdventureExpansionModBlocks.RUBY_ORE,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
-	public static final Item RUBY_BAG = register(new RubyBagItem());
-	public static final Item FABRIC = register(new FabricItem());
-	public static final Item DEEPSLATE_RUBY_ORE = register(MinecraftsAdventureExpansionModBlocks.DEEPSLATE_RUBY_ORE,
+	public static final RegistryObject<Item> FABRIC = REGISTRY.register("fabric", () -> new FabricItem());
+	public static final RegistryObject<Item> DEEPSLATE_RUBY_ORE = block(MinecraftsAdventureExpansionModBlocks.DEEPSLATE_RUBY_ORE,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
-	public static final Item URANIOBLOCK = register(MinecraftsAdventureExpansionModBlocks.URANIOBLOCK,
+	public static final RegistryObject<Item> URANIOBLOCK = block(MinecraftsAdventureExpansionModBlocks.URANIOBLOCK,
 			MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB);
-	public static final Item URANIOITEN = register(new UranioitenItem());
-	public static final Item STICKDEIRON = register(new StickdeironItem());
-	public static final Item URANIUM_SWORD = register(new UraniumSwordItem());
-	public static final Item PIKARETADEURANIO = register(new PIKARETADEURANIOItem());
+	public static final RegistryObject<Item> URANIOITEN = REGISTRY.register("uranioiten", () -> new UranioitenItem());
+	public static final RegistryObject<Item> STICKDEIRON = REGISTRY.register("stickdeiron", () -> new StickdeironItem());
+	public static final RegistryObject<Item> URANIUM_SWORD = REGISTRY.register("uranium_sword", () -> new UraniumSwordItem());
+	public static final RegistryObject<Item> PIKARETADEURANIO = REGISTRY.register("pikaretadeuranio", () -> new PIKARETADEURANIOItem());
 
-	private static Item register(Item item) {
-		REGISTRY.add(item);
-		return item;
-	}
-
-	private static Item register(Block block, CreativeModeTab tab) {
-		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
-	}
-
-	@SubscribeEvent
-	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new Item[0]));
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

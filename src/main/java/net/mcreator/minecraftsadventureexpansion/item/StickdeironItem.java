@@ -9,7 +9,6 @@ import net.minecraft.world.item.CreativeModeTab;
 public class StickdeironItem extends Item {
 	public StickdeironItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("stickdeiron");
 	}
 
 	@Override

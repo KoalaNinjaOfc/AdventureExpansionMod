@@ -14,7 +14,6 @@ import net.minecraft.core.BlockPos;
 public class DepslateRubyOreBlock extends Block {
 	public DepslateRubyOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("deepslate_ruby_ore");
 	}
 
 	@Override

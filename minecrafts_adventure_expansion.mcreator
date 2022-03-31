@@ -25,14 +25,6 @@
       "registry_name": "ruby_ore_lt"
     },
     {
-      "name": "RubyBag",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_bag"
-    },
-    {
       "name": "RubyBagStorageGUI",
       "type": "gui",
       "sortid": 6,
@@ -124,7 +116,7 @@
       "name": "PIKARETADEURANIO",
       "type": "tool",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pikaretadeuranio"
     }
@@ -133,29 +125,30 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
       "item.minecrafts_adventure_expansion.uranioiten": "Uranium Ingot",
-      "item.minecrafts_adventure_expansion.ruby": "Ruby",
-      "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "item.minecrafts_adventure_expansion.pikaretadeuranio": "PIKARETADEURANIO",
       "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Deepslate Ruby Ore",
-      "item.minecrafts_adventure_expansion.stickdeiron": "Iron Stick",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
-      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag",
-      "block.minecrafts_adventure_expansion.uranioblock": "Uranium Ore"
+      "item.minecrafts_adventure_expansion.uranium_sword": "Uranium Sword",
+      "block.minecrafts_adventure_expansion.uranioblock": "Uranium Ore",
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
+      "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
+      "item.minecrafts_adventure_expansion.ruby": "Ruby",
+      "item.minecrafts_adventure_expansion.stickdeiron": "Iron Stick",
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod"
     },
     "pt_pt": {
-      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
       "item.minecrafts_adventure_expansion.uranioiten": "Barra de Uranio",
-      "item.minecrafts_adventure_expansion.ruby": "Rubi",
-      "block.minecrafts_adventure_expansion.ruby_ore": "Minério de Rubi",
-      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "Minério de Ardósia de Rubi",
-      "item.minecrafts_adventure_expansion.stickdeiron": "Pau de Ferro",
+      "item.minecrafts_adventure_expansion.pikaretadeuranio": "PIKARETADEURANIO",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "MinÃ©rio de ArdÃ³sia de Rubi",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
-      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
       "item.minecrafts_adventure_expansion.uranium_sword": "Uranium Sword",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Sacola de Rubi",
-      "block.minecrafts_adventure_expansion.uranioblock": "Minério de Uranio"
+      "block.minecrafts_adventure_expansion.uranioblock": "MinÃ©rio de Uranio",
+      "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
+      "block.minecrafts_adventure_expansion.ruby_ore": "MinÃ©rio de Rubi",
+      "item.minecrafts_adventure_expansion.ruby": "Rubi",
+      "item.minecrafts_adventure_expansion.stickdeiron": "Pau de Ferro",
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion"
     }
   },
   "foldersRoot": {
@@ -177,10 +170,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using MCreator",
     "modElementsPackage": "net.mcreator.minecraftsadventureexpansion",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202200112711
 }

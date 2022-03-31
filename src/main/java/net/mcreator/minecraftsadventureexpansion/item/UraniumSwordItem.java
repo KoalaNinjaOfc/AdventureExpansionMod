@@ -1,7 +1,12 @@
 
 package net.mcreator.minecraftsadventureexpansion.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.minecraftsadventureexpansion.init.MinecraftsAdventureExpansionModTabs;
 
 public class UraniumSwordItem extends SwordItem {
 	public UraniumSwordItem() {
@@ -29,13 +34,6 @@ public class UraniumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				3, -3f,
-
-				new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB));
-
-		setRegistryName("uranium_sword");
+		}, 3, -3f, new Item.Properties().tab(MinecraftsAdventureExpansionModTabs.TAB_MINECRAFTS_ADVENTURE_EXPANSION_MOD_TAB));
 	}
-
 }
