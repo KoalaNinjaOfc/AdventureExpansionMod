@@ -25,14 +25,6 @@
       "registry_name": "ruby_ore_lt"
     },
     {
-      "name": "RubyBagStorageGUI",
-      "type": "gui",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_bag_storage_gui"
-    },
-    {
       "name": "RubyBagRecipe",
       "type": "recipe",
       "sortid": 7,
@@ -119,14 +111,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pikaretadeuranio"
-    },
-    {
-      "name": "RubyBag",
-      "type": "item",
-      "sortid": 17,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "ruby_bag"
     }
   ],
   "variable_elements": [],
@@ -143,22 +127,20 @@
       "block.minecrafts_adventure_expansion.ruby_ore": "Ruby Ore",
       "item.minecrafts_adventure_expansion.ruby": "Ruby",
       "item.minecrafts_adventure_expansion.stickdeiron": "Iron Stick",
-      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Adventure Expansion Mod"
     },
     "pt_pt": {
       "item.minecrafts_adventure_expansion.uranioiten": "Barra de Uranio",
       "item.minecrafts_adventure_expansion.pikaretadeuranio": "PIKARETADEURANIO",
-      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "MinÃ©rio de ArdÃ³sia de Rubi",
+      "block.minecrafts_adventure_expansion.deepslate_ruby_ore": "MinÃƒÂ©rio de ArdÃƒÂ³sia de Rubi",
       "item.minecrafts_adventure_expansion.fabric": "Fabric",
       "item.minecrafts_adventure_expansion.uranium_sword": "Uranium Sword",
-      "block.minecrafts_adventure_expansion.uranioblock": "MinÃ©rio de Uranio",
+      "block.minecrafts_adventure_expansion.uranioblock": "MinÃƒÂ©rio de Uranio",
       "item.minecrafts_adventure_expansion.espadadeuranio": "Espadadeuranio",
-      "block.minecrafts_adventure_expansion.ruby_ore": "MinÃ©rio de Rubi",
+      "block.minecrafts_adventure_expansion.ruby_ore": "MinÃƒÂ©rio de Rubi",
       "item.minecrafts_adventure_expansion.ruby": "Rubi",
       "item.minecrafts_adventure_expansion.stickdeiron": "Pau de Ferro",
-      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion",
-      "item.minecrafts_adventure_expansion.ruby_bag": "Ruby Bag"
+      "itemGroup.tabminecrafts_adventure_expansion_mod_tab": "Minecraft\u0027s Adventure Expansion"
     }
   },
   "foldersRoot": {
